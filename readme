@@ -1,0 +1,17 @@
+export PATH=$PATH:/usr/local/mysql/bin
+apt-get install libmysqlclient-dev python-dev
+pip install  mysqlclient
+
+sudo su
+export PATH=$PATH:/usr/local/mysql/bin/
+pip install mysql-python
+exit
+
+python -m ensurepip --default-pip
+
+#sudo apt-get install python-lxml
+#sudo apt install libxml2-dev libxslt1-dev python-dev
+#sudo apt-get install -y libxml2-dev libxslt1-dev zlib1g-dev
+
+sudo apt-get -y install libxml2-dev libxslt-dev
+

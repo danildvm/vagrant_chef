@@ -1,0 +1,4 @@
+CREATE DATABASE ecomap_db CHARACTER SET utf8 COLLATE utf8_unicode_ci;
+USE ecomap_db;
+SOURCE CREATE_DB.sql;
+SOURCE INSERT_DATA.sql;
